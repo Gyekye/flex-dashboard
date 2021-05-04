@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav {
+    background-color: #6F52ED;
+    padding: 14px;
+}
+
+.brand-logo {
+    padding: 5px;
+    text-align: center;
+}
+
+.brand-logo {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+input[type="text"] {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Gilroy' sans-serif;
+    color: #A6ACBE;
+    margin-top: 6px;
+}
+
+input[type="text"]::placeholder {
+    color: #A6ACBE;
+}
+
+.search-logo {
+    margin-left: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 18px;
+    color: #A6ACBE;
+    font-size: 12px;
+}
+
+.profile-text {
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.profile-text h4 {
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+}
+
+.profile-text p {
+    font-size: 16px;
+    color: white;
+    margin-left: 80px;
+}
+
+.avatar-img {
+    margin-top: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.avatar-img img {
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.nav-icons {
+    margin-top: 20px;
+}
+
+.nav-icons i {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
