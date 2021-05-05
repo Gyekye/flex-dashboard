@@ -25,7 +25,6 @@ nav {
 input[type="text"] {
     padding: 10px 30px;
     border: none;
-    outline: none;
     position: relative;
     font-size: 14px;
     font-family: 'Gilroy' sans-serif;
@@ -47,7 +46,7 @@ input[type="text"]::placeholder {
 }
 
 .profile-text {
-    margin-top: 4px;
+    margin-top: 6px;
     margin-left: 20px;
 }
 
@@ -60,7 +59,7 @@ input[type="text"]::placeholder {
 .profile-text p {
     font-size: 16px;
     color: white;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .avatar-img {
@@ -75,7 +74,7 @@ input[type="text"]::placeholder {
 }
 
 .nav-icons {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .nav-icons i {
