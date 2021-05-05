@@ -5,6 +5,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.body {
+    background-color: #DFE1EB;
+}
+
 nav {
     background-color: #6F52ED;
     padding: 14px;
@@ -29,11 +33,13 @@ input[type="text"] {
     font-size: 14px;
     font-family: 'Gilroy' sans-serif;
     color: #A6ACBE;
-    margin-top: 6px;
+    margin-top: 5px;
+    outline: none;
 }
 
 input[type="text"]::placeholder {
     color: #A6ACBE;
+    font-size: 14px;
 }
 
 .search-logo {
@@ -59,7 +65,7 @@ input[type="text"]::placeholder {
 .profile-text p {
     font-size: 16px;
     color: white;
-    margin-left: 90px;
+    margin-left: 85px;
 }
 
 .avatar-img {
@@ -78,8 +84,105 @@ input[type="text"]::placeholder {
 }
 
 .nav-icons i {
-    padding: 10px;
+    padding: 25px;
     font-size: 20px;
     color: white;
     cursor: pointer;
+}
+
+.col-xs-2 h2 {
+    padding: 10px 0px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.col-xs-2 p {
+    margin-left: 45px;
+    white-space: nowrap;
+    color: #A6ACBE;
+}
+
+.col-xs-4.col-xs-offset-6>button:first-of-type {
+    color: #6F52ED;
+    background-color: #FFFFFF;
+    border: 1px solid #DADCE5;
+    font-weight: 600;
+}
+
+.col-xs-4.col-xs-offset-6 :last-of-type {
+    color: #ffffff;
+    background-color: #6F52ED;
+    font-weight: 600;
+}
+
+.button {
+    padding: 14px 38px;
+    margin-top: 43px;
+    background-color: #6F52ED;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+}
+
+.col-xs-4.col-xs-offset-6 .bi.bi-pencil {
+    position: absolute;
+    z-index: 1;
+    margin-top: 57px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 0px 4px;
+    background-color: inherit;
+    color: #6F52ED;
+}
+
+.col-xs-4.col-xs-offset-6 .bi.bi-plus {
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 0px 4px;
+    background-color: inherit;
+}
+
+.small-card {
+    width: 275px;
+    height: 150px;
+    background-color: #ffffffff;
+    z-index: 2;
+    -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+}
+
+.wide-card {
+    width: 680px;
+    height: 300px;
+    background-color: #ffffffff;
+    z-index: 2;
+    -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+}
+
+.long-card {
+    width: 300px;
+    height: 450px;
+    background-color: #ffffffff;
+    z-index: 2;
+    -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+}
+
+.med-card {
+    width: 320px;
+    height: 200px;
+    background-color: #ffffffff;
+    z-index: 2;
+    -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
 }
