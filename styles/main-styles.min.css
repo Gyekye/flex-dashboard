@@ -148,7 +148,7 @@ input[type="text"]::placeholder {
 }
 
 .small-card {
-    width: 275px;
+    width: 310px;
     height: 150px;
     background-color: #ffffffff;
     z-index: 2;
