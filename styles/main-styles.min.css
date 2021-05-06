@@ -35,6 +35,7 @@ input[type="text"] {
     color: #A6ACBE;
     margin-top: 5px;
     outline: none;
+    border-radius: 4px;
 }
 
 input[type="text"]::placeholder {
@@ -124,6 +125,9 @@ input[type="text"]::placeholder {
     cursor: pointer;
     border-radius: 4px;
     position: relative;
+    -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
 }
 
 .col-xs-4.col-xs-offset-6 .bi.bi-pencil {
@@ -149,9 +153,10 @@ input[type="text"]::placeholder {
 
 .small-card {
     width: 310px;
-    height: 150px;
+    height: 180px;
     background-color: #ffffffff;
     z-index: 2;
+    border-radius: 4px;
     -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
@@ -162,6 +167,7 @@ input[type="text"]::placeholder {
     height: 300px;
     background-color: #ffffffff;
     z-index: 2;
+    border-radius: 4px;
     -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
@@ -172,6 +178,7 @@ input[type="text"]::placeholder {
     height: 450px;
     background-color: #ffffffff;
     z-index: 2;
+    border-radius: 4px;
     -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
@@ -182,7 +189,105 @@ input[type="text"]::placeholder {
     height: 200px;
     background-color: #ffffffff;
     z-index: 2;
+    border-radius: 4px;
     -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     -moz-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
     box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+}
+
+.icon-pad {
+    background-color: blue;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left: 30px;
+    border-radius: 60px;
+}
+
+.icon-pad>i {
+    color: white;
+    z-index: 1;
+    margin-left: 23px;
+    margin-top: 18px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.icon-pad.first {
+    background-color: rgba(113, 59, 219, 0.1);
+}
+
+.bi.bi-person {
+    color: #6F52ED;
+}
+
+.icon-pad.second {
+    background-color: rgba(51, 214, 159, 0.1);
+}
+
+.bi.bi-bezier {
+    color: #21B8C7;
+}
+
+.icon-pad.third {
+    background-color: rgba(255, 76, 97, 0.1);
+}
+
+.bi.bi-graph-down {
+    color: #FF4C61;
+}
+
+.icon-pad.forth {
+    background-color: rgba(76, 184, 255, 0.1);
+}
+
+.bi.bi-bookmark {
+    color: #4CB8FF;
+}
+
+.icon-pad.fifth {
+    background-color: rgba(255, 184, 0, 0.1);
+}
+
+.bi.bi-trophy {
+    color: #FFB800;
+}
+
+.icon-pad.sixth {
+    background-color: rgba(76, 184, 255, 0.1);
+}
+
+.bi.bi-stopwatch {
+    color: #4CB8FF;
+}
+
+.card-text {
+    display: inline-block;
+    margin-left: 90px;
+    transform: translateY(-45px);
+}
+
+.card-text h2 {
+    margin-bottom: 5px;
+}
+
+.card-text p {
+    margin-bottom: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #A6ACBE;
+}
+
+.card-text-med {
+    display: inline-block;
+    margin-left: 55px;
+    transform: translateY(-85px);
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 12px 5px;
+    white-space: nowrap;
 }
